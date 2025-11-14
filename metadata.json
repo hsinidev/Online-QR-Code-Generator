@@ -1,0 +1,5 @@
+{
+  "name": "Online QR Code Generator",
+  "description": "A modern, responsive web application to instantly generate and download custom QR codes from any URL or text. Features a clean interface, customization options, and an animated galaxy background.",
+  "requestFramePermissions": []
+}

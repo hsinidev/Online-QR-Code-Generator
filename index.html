@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online QR Code Generator | Instant & Free</title>
+    <meta name="description" content="Generate and download custom QR codes for free. Our online tool lets you create QR codes for URLs, text, and more with live previews and color customization. Fast, easy, and no sign-up required." />
+    <meta name="keywords" content="qr code generator, online qr code, free qr code, custom qr code, qr code creator, text to qr, url to qr" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+    <style>
+      @keyframes gradient-animation {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+      .animated-galaxy {
+        background: linear-gradient(-45deg, #0b021a, #20134b, #070922, #3a2a88);
+        background-size: 400% 400%;
+        animation: gradient-animation 25s ease infinite;
+      }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "Online QR Code Generator",
+          "url": "https://example.com",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://example.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "WebApplication",
+          "name": "Online QR Code Generator",
+          "operatingSystem": "All",
+          "applicationCategory": "Utilities",
+          "offers": {
+            "@type": "Offer",
+            "price": "0"
+          }
+        },
+        {
+          "@type": "Article",
+          "headline": "The Ultimate Guide to QR Code Technology and Mobile Marketing",
+          "author": {
+            "@type": "Person",
+            "name": "HSINI MOHAMED"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Online QR Code Generator",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://example.com/favicon.svg"
+            }
+          },
+          "datePublished": "2023-10-27",
+          "mainEntityOfPage": "https://example.com",
+          "articleBody": "This comprehensive guide explores everything about QR codes, from their underlying technology like Reed-Solomon error correction to their practical applications in business and marketing..."
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is a QR code?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A QR (Quick Response) code is a two-dimensional barcode that can store various types of information, such as URLs, text, or contact details, which can be quickly accessed by scanning it with a smartphone camera."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are the QR codes generated here free to use?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, all QR codes generated with our tool are completely free for both personal and commercial use. They are static, do not expire, and have no scan limits."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the difference between static and dynamic QR codes?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Static QR codes directly encode the destination information, meaning they cannot be edited once created. Dynamic QR codes encode a short URL that redirects to the final destination; this allows the destination link to be changed later without altering the QR code itself. Our tool creates static QR codes."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="antialiased text-slate-200">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
